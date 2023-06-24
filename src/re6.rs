@@ -7,6 +7,9 @@ pub fn example() {
 
     let num = Number::from(30);
     println!("The number is {:?}", num);
+    let int = 5;
+    let num1: Number = int.into();
+    println!("The number is {:?}", num1);
 }
 
 use std::convert::From;
