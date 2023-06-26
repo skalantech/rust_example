@@ -7,6 +7,9 @@ mod re5;
 mod re6;
 mod re7;
 mod re8;
+mod re9;
+mod re921;
+mod re93;
 
 use crate::List::{Cons, Nil};
 
@@ -124,4 +127,7 @@ fn main() {
     re6::example();
     re7::example(); 
     re8::example();
+    re9::example();
+    re921::example();
+    re93::example();
 }
